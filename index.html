@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSIC PLAYER</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="player">
+    <h2 class="title">8 vasantalu</h2>
+    <p class="title1">music</p>
+
+    <img src="https://tse2.mm.bing.net/th/id/OIP.CGkJldyYuKyZiOlmOTpnKQHaEK?pid=Api&P=0&h=180" class="image">
+
+    <div class="container">
+       
+      <input type="range"   id="range" min="0" value="0" class="move" disabled>
+      
+    </div>
+
+    <div class="pay-buttons">
+      <button id="prev">⏮</button>
+      <button id="play" class="play"onclick="Play()">▶</button>
+      <button id="next">⏭</button>
+    </div>
+
+    <audio id="audio" src="8 vasantalu.mp3"></audio>
+    <script src="script.js"></script>
+     
+  </div>
+
+</body>
+</html>
